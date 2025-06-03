@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background-color: #21222a;
+}
+
+.navbar {
+  margin-left: 26px;
+}
+
+.navbar__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  color: #61dafb;
+}
+
+.navbar__name {
+  margin-left: 7px;
+  color: #61dafb;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.navbar__logo {
+  width: 40px;
+}
