@@ -6,7 +6,7 @@ export default function Navbar() {
           <li>
             <div className="navbar__brand">
               <img
-                src="public/images/react-logo.png"
+                src="/images/react-logo.png"
                 alt="React logo"
                 className="navbar__logo"
               />
